@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+
+
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:id="@+id/onLineViewItemLeftLayout"
+        android:layout_marginRight="3dp"
+        android:layout_marginLeft="3dp"
+        android:background="@color/transparent">
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="140dp"
+            android:scaleType="centerCrop"
+
+            android:id="@+id/onLineViewItemLeft">
+        </ImageView>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:id="@+id/onLineViewItemLeftName"
+            android:textAlignment="center"
+            android:textSize="14dp"
+            android:paddingTop="10dp"
+            android:background="@color/transparent"
+            >
+        </TextView>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:id="@+id/onLineViewItemRightLayout"
+        android:layout_marginRight="3dp"
+        android:layout_marginLeft="3dp">
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="140dp"
+            android:scaleType="centerCrop"
+
+
+            android:id="@+id/onLineViewItemRight">
+        </ImageView>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:textAlignment="center"
+            android:textSize="14dp"
+            android:paddingTop="10dp"
+            android:background="@color/transparent"
+            android:id="@+id/onLineViewItemRightName">
+        </TextView>
+
+    </LinearLayout>
+
+
+</LinearLayout>
